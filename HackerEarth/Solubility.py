@@ -1,0 +1,9 @@
+t=int(input())
+while(t>0):
+    secondline=input().split()
+    X=int(secondline[0])
+    A=int(secondline[1])
+    B=int(secondline[2])
+    result=A+(100-X)*B
+    print(result*10)
+    t-=1
